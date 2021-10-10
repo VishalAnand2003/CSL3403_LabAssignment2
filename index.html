@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      background: #797DA4;
+    }
+
+    .box {
+      padding: 20px;
+      margin: 10px;
+      border: 2px solid #6E0B29;
+      background-color: #80B993;
+    }
+
+    h2 {
+      color: orangered;
+      background: #EBD07B;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 40px;
+      margin-bottom: 0px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+
+    /*.box1 {
+      height: 100px;
+      width: 100px;
+      background-color: #2B5ACB;
+      margin: 8px 5px;
+      border-radius: 10px;
+    }*/
+
+    img{
+        height: 100px;
+        width: 100px;
+        margin: 5px 20px;
+    }
+
+    
+    #b {
+      display: flex;
+    }
+
+    #c {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #d {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #e {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    #f {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    #g{
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    #h{
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+  </style>
+</head>
+
+<body>
+  <h2> Without Flex </h2>
+  <div class="box" id="a">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu0kRUoRjsnrV3sieHoEbUS98QOzJ40gQFGkcq-YMEfnPIppShEIwjjvQ&s=10" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXu573svTS7oc54VPxOuJEkvift8AtCzZgg&usqp=CAU" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMVYETKrNILbJCOY8uvyP_E10RA_uxlOTavA&usqp=CAU" alt="">
+    
+  </div>
+  
+  <h2> With Flex </h2>
+  <div class="box" id="b">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu0kRUoRjsnrV3sieHoEbUS98QOzJ40gQFGkcq-YMEfnPIppShEIwjjvQ&s=10" alt="">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXu573svTS7oc54VPxOuJEkvift8AtCzZgg&usqp=CAU" alt="">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMVYETKrNILbJCOY8uvyP_E10RA_uxlOTavA&usqp=CAU" alt="">
+    
+  </div>
+  
+  <h2>Flex direction - row </h2>
+  <div class="box" id="c">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu0kRUoRjsnrV3sieHoEbUS98QOzJ40gQFGkcq-YMEfnPIppShEIwjjvQ&s=10" alt="">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXu573svTS7oc54VPxOuJEkvift8AtCzZgg&usqp=CAU" alt="">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMVYETKrNILbJCOY8uvyP_E10RA_uxlOTavA&usqp=CAU" alt="">
+   
+  </div>
